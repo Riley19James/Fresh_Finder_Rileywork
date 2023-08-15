@@ -1,0 +1,36 @@
+<div class="container mt-5">
+        <div class="row justify-content center align-items center mb-5">
+            <div class="col-12 text-center">
+                <img src="../public/img/Capture.PNG" alt="Logo login page" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container mt-5">
+        <h1 class="text-center">Fresh Finder</h1>
+            <p class="text-center">WHERE FRESHNESS MATTERS</p>
+        
+        <form action="/user/register" method="POST">
+            <div class="form-group short-input">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+
+            <div class="form-group short-input">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group short-input">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+
+            <div class="text-center mt-3">
+                <p>Get started here! <a href="./registration.handlebars">Create an account</a></p>
+            </div>
+        </form>
+    </div>

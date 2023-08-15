@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS FreshFinder_db;
+CREATE DATABASE FreshFinder_db;
